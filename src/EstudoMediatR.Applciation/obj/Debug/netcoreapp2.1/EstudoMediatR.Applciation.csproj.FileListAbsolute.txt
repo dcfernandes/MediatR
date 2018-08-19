@@ -1,0 +1,9 @@
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\bin\Debug\netcoreapp2.1\EstudoMediatR.Applciation.deps.json
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\bin\Debug\netcoreapp2.1\EstudoMediatR.Applciation.dll
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\bin\Debug\netcoreapp2.1\EstudoMediatR.Applciation.pdb
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp2.1\EstudoMediatR.Applciation.csprojAssemblyReference.cache
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp2.1\EstudoMediatR.Applciation.csproj.CoreCompileInputs.cache
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp2.1\EstudoMediatR.Applciation.AssemblyInfoInputs.cache
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp2.1\EstudoMediatR.Applciation.AssemblyInfo.cs
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp2.1\EstudoMediatR.Applciation.dll
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp2.1\EstudoMediatR.Applciation.pdb

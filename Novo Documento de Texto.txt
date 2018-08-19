@@ -1,0 +1,6 @@
+Install-Package Swashbuckle.AspNetCore
+
+
+Install-Package MediatR
+Install-Package MediatR.Extensions.Microsoft.DependencyInjection
+Install-Package Scrutor (Scan)
