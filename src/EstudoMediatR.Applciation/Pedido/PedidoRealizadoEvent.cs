@@ -1,7 +1,7 @@
-﻿using MediatR;
-
-namespace EstudoMediatR.Applciation.Pedido
+﻿namespace EstudoMediatR.Applciation.Pedido
 {
+    using MediatR;
+
     public class PedidoRealizadoEvent : INotification
     {
     }

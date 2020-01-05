@@ -1,11 +1,11 @@
-﻿using EstudoMediatR.Applciation.Logs;
-using EstudoMediatR.Applciation.Pedido;
-using MediatR;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace EstudoMediatR.Applciation.Commands
+﻿namespace EstudoMediatR.Applciation.Commands
 {
+    using EstudoMediatR.Applciation.Logs;
+    using EstudoMediatR.Applciation.Pedido;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
+
     public class RealizarPedidoHandler : IRequestHandler<RealizarPedidoRequest>
     {
         private readonly IMediator _mediator;

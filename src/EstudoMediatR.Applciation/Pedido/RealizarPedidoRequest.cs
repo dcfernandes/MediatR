@@ -1,8 +1,8 @@
-﻿using MediatR;
-using System;
-
-namespace EstudoMediatR.Applciation.Commands
+﻿namespace EstudoMediatR.Applciation.Commands
 {
+    using MediatR;
+    using System;
+
     public class RealizarPedidoRequest : IRequest
     {
         public RealizarPedidoRequest()

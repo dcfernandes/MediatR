@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace EstudoMediatR.Applciation.Logs
+﻿namespace EstudoMediatR.Applciation.Logs
 {
+    using System;
+    using System.Collections.Generic;
+
     public interface ILog
     {
         List<string> Passos { get; set; }

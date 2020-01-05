@@ -1,13 +1,13 @@
-﻿using EstudoMediatR.Applciation.Events;
-using EstudoMediatR.Applciation.Logs;
-using EstudoMediatR.Applciation.Pedido;
-using MediatR;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace EstudoMediatR.Applciation.NotaFiscal
+﻿namespace EstudoMediatR.Applciation.NotaFiscal
 {
+    using EstudoMediatR.Applciation.Events;
+    using EstudoMediatR.Applciation.Logs;
+    using EstudoMediatR.Applciation.Pedido;
+    using MediatR;
+    using System;
+    using System.Threading;
+    using System.Threading.Tasks;
+
     public class EmitirNotaFiscalHandler : INotificationHandler<PedidoRealizadoEvent>
     {
         private readonly IMediator _mediator;

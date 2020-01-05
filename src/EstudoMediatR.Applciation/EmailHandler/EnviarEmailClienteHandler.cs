@@ -1,20 +1,18 @@
-﻿using EstudoMediatR.Applciation.Events;
-using EstudoMediatR.Applciation.Logs;
-using EstudoMediatR.Applciation.Pedido;
-using MediatR;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace EstudoMediatR.Applciation.EmailHandler
+﻿namespace EstudoMediatR.Applciation.EmailHandler
 {
+    using EstudoMediatR.Applciation.Events;
+    using EstudoMediatR.Applciation.Logs;
+    using EstudoMediatR.Applciation.Pedido;
+    using MediatR;
+    using System.Threading;
+    using System.Threading.Tasks;
+
     public class EnviarEmailClienteHandler : INotificationHandler<PedidoRealizadoEvent>, INotificationHandler<NotaFiscalEmitidaEvent>
     {
-        private readonly IMediator _mediator;
         private readonly ILog _log;
 
-        public EnviarEmailClienteHandler(IMediator mediator, ILog log)
+        public EnviarEmailClienteHandler(ILog log)
         {
-            _mediator = mediator;
             _log = log;
         }
 

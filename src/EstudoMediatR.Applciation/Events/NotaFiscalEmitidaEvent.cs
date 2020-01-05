@@ -1,7 +1,7 @@
-﻿using MediatR;
-
-namespace EstudoMediatR.Applciation.Events
+﻿namespace EstudoMediatR.Applciation.Events
 {
+    using MediatR;
+
     public class NotaFiscalEmitidaEvent : INotification
     {
         public NotaFiscalEmitidaEvent(int numeroNotaFiscal)

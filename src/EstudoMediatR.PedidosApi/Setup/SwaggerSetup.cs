@@ -1,22 +1,20 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Swashbuckle.AspNetCore.Swagger;
-
-namespace EstudoMediatR.PedidosApi.Setup
+﻿namespace EstudoMediatR.PedidosApi.Setup
 {
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.OpenApi.Models;
+
     public static class SwaggerSetup
     {
         public static void ConfigureSwagger(this IServiceCollection services)
         {
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new Info
+                s.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
                     Title = "Estudo MediatR",
-                    Description = "Estudo MediatR API Swagger",
-                    Contact = new Contact { Name = "Diogo Carvalho Fernandes", Email = "cfernandes.diogo@gmail.com" },
-
+                    Description = "Estudo MediatR API Swagger"
                 });
             });
         }

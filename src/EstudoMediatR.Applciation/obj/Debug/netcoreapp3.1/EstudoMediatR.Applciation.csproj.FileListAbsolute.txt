@@ -1,0 +1,15 @@
+C:\Users\cfern\source\repos\EstudoMediatR\EstudoMediatR.Applciation\bin\Debug\netcoreapp3.1\EstudoMediatR.Applciation.deps.json
+C:\Users\cfern\source\repos\EstudoMediatR\EstudoMediatR.Applciation\bin\Debug\netcoreapp3.1\EstudoMediatR.Applciation.dll
+C:\Users\cfern\source\repos\EstudoMediatR\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.AssemblyInfoInputs.cache
+C:\Users\cfern\source\repos\EstudoMediatR\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.AssemblyInfo.cs
+C:\Users\cfern\source\repos\EstudoMediatR\EstudoMediatR.Applciation\bin\Debug\netcoreapp3.1\EstudoMediatR.Applciation.pdb
+C:\Users\cfern\source\repos\EstudoMediatR\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.dll
+C:\Users\cfern\source\repos\EstudoMediatR\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.pdb
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\bin\Debug\netcoreapp3.1\EstudoMediatR.Applciation.deps.json
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\bin\Debug\netcoreapp3.1\EstudoMediatR.Applciation.dll
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\bin\Debug\netcoreapp3.1\EstudoMediatR.Applciation.pdb
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.csprojAssemblyReference.cache
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.AssemblyInfoInputs.cache
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.AssemblyInfo.cs
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.dll
+D:\GIT\MediatR\src\EstudoMediatR.Applciation\obj\Debug\netcoreapp3.1\EstudoMediatR.Applciation.pdb
