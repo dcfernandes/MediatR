@@ -17,14 +17,14 @@
             _log = log;
         }
 
-        public Task<Unit> Handle(RealizarPedidoRequest request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(RealizarPedidoRequest request, CancellationToken cancellationToken)
         {
             _log.AddPassos($"RealizarPedidoHandler -  Id: {request.Id}, Nome: {request.Nome}");
 
             _log.AddPassos("_mediator.Publish(new PedidoRealizadoEvent());");
-            _mediator.Publish(new PedidoRealizadoEvent());
+            await _mediator.Publish(new PedidoRealizadoEvent(), cancellationToken);
 
-            return Unit.Task;
+            return Unit.Value;
         }
     }
 }
